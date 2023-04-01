@@ -1,0 +1,47 @@
+body{
+
+    font-family: 'Signika', sans-serif;
+}
+
+header{
+    background-color: #d3d3d3;
+    color: black;
+    font-size: 24px;
+    padding: 0.1px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    background-color: beige;
+    padding: 0 30px;
+
+
+    .page-title{
+        font-size: 40px;
+        padding: 50px 0;
+        text-align: center;
+        font-family: 'Signika', sans-serif;
+    }
+
+    .content{
+
+        display: flex;
+        
+        section{
+            
+            width: 900px;
+            flex: 1;
+        }
+
+        aside{
+            
+            background-color: #D8D16E;
+            min-width: 250px;
+        }
+    }
+
+}
+
