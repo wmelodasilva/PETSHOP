@@ -10,7 +10,9 @@
     max-width: 1100PX;
     margin: 0 auto;
     padding: 0.2%;
+    font-family: 'Signika', sans-serif;
 }  
+
 
 html,body{
     height: 100%;
@@ -38,11 +40,13 @@ html,body{
     text-decoration: none;
     font-weight: bold;
     margin-right: 15px;
+    font-family: 'Signika', sans-serif;
 }
 
 .section about{
     height: calc(100% - 200px);
     position: relative;
+    
 
 }
 
@@ -69,6 +73,7 @@ html,body{
 
 .center{
 
+    font-family: 'Signika', sans-serif;
     margin-top: 20px 0;
     text-align: justify;
 }
@@ -77,6 +82,7 @@ html,body{
     font-size: 30px;
     text-align: center;
     height: 400px;
+    font-family: 'Signika', sans-serif;
 }
 
 .center p{
@@ -85,6 +91,7 @@ html,body{
     font-weight: bold;
     max-width: 800px;
     cursor: pointer;
+    font-family: 'Signika', sans-serif;
 }
 
   
