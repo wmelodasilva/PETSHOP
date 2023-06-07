@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <link rel="stylesheet" type="text/css" href="loginn.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="login.css" media="screen" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" type="image/png" href="patas.png"/>
+    <link rel="icon" type="image/png" href="imagens/patas.png"/>
     <title>Login WAL!</title>
   </head>
 
@@ -23,47 +23,50 @@
         <a href="index.html"class="btn btn-primary">Voltar à página inicial </a>
 
         <div class="cobra">
-           <a href="index.html"><img src="cobra.png"  width="200px" height="200px"></a>
+           <a href="index.html"><img src="imagens/cobra.png"  width="200px" height="200px"></a>
         </div>
      </header>  
 
 
       <div class="img-logo">
-        <img src="logo.png" width="500px" height="400px">
+        <img src="imagens/logo.png" width="500px" height="400px">
        <br>
 
 
       <div class="cadastro"> 
       <p><strong>Não possui cadastro?</strong></p> 
-      <a href="index.html"class="btn btn-secondary">Cadastre-se</a>
+      <a href="cadastro.php"class="btn btn-secondary">Cadastre-se</a>
     <br><br> </div></div>
 
         <div class="Formulario">
     <fieldset id="log"> 
-    <form>
 
         <h1>LOGIN:</h1>
         <p>Veja seus pedidos, compre mais rápido e tenha acesso a descontos exclusivos!</p><br>
       
       <div class="form-group">
+        <form method="POST" action="verifica_login.php">
         <label for="email">Endereço de email:</label><br>
-        <input
+        <input 
           type="email"
           class="form-control"
           id="email"
+          name="email"
           aria-describedby="emailHelp"
           size="30"/>
       </div>
-<br><br>
+<br>
       <div class="form-group">
-        <label for="senha">Senha:</label><br>
-        <input
+        <label for="senha">Senha:</label> <br>
+        <input 
           type="password"
           class="form-control"
           id="senha"
+          name="senha"
           size="30"/>
+          <a href=#><h5>Esqueceu a senha? Clique aqui.</h5></a>
+
       </div>
-<br><br>
       <div class="form-group form-check">
         <input type="checkbox" class="form-check-input" id="lembrardemim" />
         <label class="form-check-label" for="exampleCheck1" 
